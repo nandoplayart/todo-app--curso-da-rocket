@@ -21,7 +21,7 @@ const TaskList = ({data,onCheckTask,onDeleteTask}:Props) => {
         ListEmptyComponent={()=> (<View style={styles.emptyContainer}>
                 <Feather style={styles.clipboard} size={45} name='clipboard' color={Colors.Base.gray400} />
                 <Text style={[{fontWeight: 'bold'},styles.textEmptyContainer]}>Voçê ainda não tem tarefas cadastradas</Text>
-                <Text style={[styles.textEmptyContainer]}>Crie tarefas e organize sesus itens a fazer</Text>
+                <Text style={[styles.textEmptyContainer]}>Crie tarefas e organize seus itens a fazer</Text>
         </View>) }
         renderItem={({item}) =>(
           <View style={styles.itemContainer}>
