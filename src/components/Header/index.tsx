@@ -9,7 +9,7 @@ import styles from './styles'
 const Header = () => {
   return (
     <View style={styles.container}>
-      <LottieView style={styles.logo} source={require('../../asserts/rocket.json')} autoPlay loop />
+      <LottieView style={styles.logo} source={require('../../assets/rocket.json')} autoPlay loop />
       <Text style={[styles.title,styles.to]}>to</Text>
       <Text style={[styles.title,styles.do]}>do</Text>
     </View>
